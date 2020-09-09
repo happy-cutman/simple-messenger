@@ -1,0 +1,49 @@
+.message {
+    width: fit-content;
+    padding: 5px;
+}
+
+.messageUser {
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+}
+
+.messageUserCard {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #5bc6ff, #4da7db) !important;
+    box-shadow:  5px 5px 27px #aab6c2 !important;
+    color: #ffffff !important;
+}
+
+.messageGuestCard {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6f6ff, #c2cfdd) !important;
+    box-shadow:  5px 5px 27px #aab6c2 !important;
+    color: #31456A !important;
+}
+
+.messageContent {
+    max-width: 350px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.username {
+    font-weight: bold;
+    color: #4da7db;
+}
+
+@media (max-width: 767px) {
+    .messageContent {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 424px) {
+    .messageContent {
+        max-width: 150px;
+    }
+}
